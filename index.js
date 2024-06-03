@@ -25,4 +25,7 @@ function validateForm() {
     alert("You have accepted to recieve the notifications.");
   }
   alert("Thank you. We look forward to meet you on the fleet.");
+  alert(
+    "hello exun team ! this side tijil. just a little thing, the data gets sent to my mail id as i used formsbumit.io. You can check the form tag, where it has the post method. thanksss for visiting :) "
+  );
 }
