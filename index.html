@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechGeeks</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <h1>TechGeek Inductions</h1>
+    <p>
+      The crew has started its endevour yet again. We seek new voyagers for our
+      quest to the end of world.....
+    </p>
+    <form
+      action="https://formsubmit.co/69b9ccb8613ea173473cfd8b680b5f50"
+      method="POST"
+      class="form"
+      name="form"
+      onsubmit="return validateForm()"
+    >
+      <p>Traveller Name</p>
+      <input type="text" id="name" name="name" required />
+      <p>Traveller Email</p>
+      <input type="text" id="email" name="email" required />
+      <p>Date of Birth</p>
+      <input type="date" id="date" name="date" required />
+      <p>Your Achievements.If yes, please describe them.</p>
+      <textarea
+        type="text"
+        name="achievements"
+        tag="achievements"
+        required
+        maxlength="600"
+      ></textarea>
+      <p>Select Grade</p>
+      <select name="grade" id="grade">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+      <p>Would you like to receive notifying letters of the voyage ?</p>
+      <input type="radio" class="radio" tag="radio" name="radio" />
+      <button type="submit" class="submit" tag="submit" name="submit">
+        Submit
+      </button>
+    </form>
+  </body>
+</html>
